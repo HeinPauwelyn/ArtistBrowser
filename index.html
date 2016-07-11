@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artisten zoeker</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="http://julian.com/research/velocity/build/jquery.velocity.min.js"></script>
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<!--<link href="css/bootstrap.min.css" rel="stylesheet" />-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<main class="container">
+		<fieldset>
+			<div>
+				<input type="text" class="form-control" placeholder="Zoek op artisten naam" id="zoekArtist" />
+				<div class="option-list" id="resultaatArtisten"></div>
+			<div>
+		</fieldset>
+
+		<div class="draw-en-info">
+			<section id="draw-area"></section>
+			<section class="artist-info">
+				<div class="toggle-panel"><p class="fa fa-bars"></p></div>
+
+				<div class="play-buttons">
+					<span class="fa fa-backward fa-2x previous-song"></span>
+					<span class="fa fa-pause fa-2x big-play"></span>
+					<span class="fa fa-forward fa-2x next-song"></span>
+				</div>
+
+				<div class="core-info">
+					<h1 class="titel"></h1>
+					<p class="bold">Top nummers</p>
+					<ul class="top-nummers"></ul>
+				</div>
+			</section>
+		</div>
+	</main>
+</body>
+</html>
