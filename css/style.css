@@ -8,7 +8,7 @@ body {
     overflow-y: auto;
     /*border: solid 1px #A9A9A9;*/
     margin: 10px 0;
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     margin: 0;
 }
