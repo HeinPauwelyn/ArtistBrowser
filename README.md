@@ -1,4 +1,4 @@
-# ArtistBrowser
+# Artist Browser
 
 [![Travis statuut][1]][2]
 
