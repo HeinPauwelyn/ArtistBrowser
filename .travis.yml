@@ -1,7 +1,10 @@
 language: node_js
-sudo: false
 node_js:
-- "0.10"
-- "0.12"
-- "4"
-- "6"
+  - 0.10
+before_install:
+  - npm install -g grunt-cli
+  - gem install sass
+install: npm install
+before_script:
+  - grunt
+script: ./test.sh compiled
